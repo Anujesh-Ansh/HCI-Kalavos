@@ -52,7 +52,7 @@ Add fun and flair to your messages with a wide range of emojis and GIFs. From cl
 
 Check out our demo to see ChitChat Central in action:
 
-![ChitChat Central Demo](demo.gif)
+[ChitChat Central Demo](#)
 
 
 ## Get Started with ChitChat
