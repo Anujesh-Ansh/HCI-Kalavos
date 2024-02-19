@@ -44,13 +44,25 @@ Add fun and flair to your messages with a wide range of emojis and GIFs. From cl
 
 5. **Enjoy:** Have fun chatting, sharing, and connecting with others! Whether you're catching up with friends, collaborating on projects, or just sharing memes, ChitChat is the perfect platform for all your communication needs.
 
+## Demo 🎥
+
+Check out our demo to see ChitChat Central in action:
+
+![ChitChat Central Demo](demo.gif)
+
 ## Get Started with ChitChat
 
 Ready to join the conversation? Visit [ChitChat](#) and start chatting today! Don't forget to invite your friends for even more fun!
 
 ## Share Your Feedback
 
-We value your feedback! If you have any suggestions, comments, or questions, feel free to [reach out](#). Your input helps us make ChitChat even better!
+We value your feedback! If you have any suggestions, comments, or questions, feel free to [reach out](anshanujesh@gmail.com). Your input helps us make ChitChat even better!
+
+## Spread the Word! 📣
+
+Help us spread the word about ChitChat Central! Share this repository with your friends, family, and colleagues, and let's connect the world one chat at a time.
+
+Happy chatting with ChitChat Central! 🌟💬
 
 ---
 
