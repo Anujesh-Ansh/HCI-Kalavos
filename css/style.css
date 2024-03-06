@@ -49,6 +49,7 @@ body{ /* For the BackGround */
     border-radius: 5px;
     margin-bottom: 10px;
     border: 1px solid #f5c6cb;
+    display: none;
 }
 
 .form form .name-details{ /* For the editing added to the name box */
@@ -113,7 +114,11 @@ form .name-details .field:last-child{/* For the editing added to the last name *
     top: 70%;
     transform: translateY(-50%);
     cursor: pointer;
+}
 
+.form form .field i.active::before{ /* For the editing added to the EYE in password, whenever the password is visible */
+    content:'\f205'; /* The `content` property is used to insert an icon representing an "eye" for toggling password visibility in a form field. */
+    color: #333;
 }
 
 .form .link{ /* For the editing added to the last thing of the page, already a user or not a user */
@@ -187,7 +192,6 @@ form .name-details .field:last-child{/* For the editing added to the last name *
     position: relative;
     align-items: center;
     justify-content: space-between;
-
 }
 
 .users .search .text{
@@ -203,6 +207,14 @@ form .name-details .field:last-child{/* For the editing added to the last name *
     font-size: 16px;
     border-radius: 5px 0 0 5px;
     outline: none;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.2s ease;
+}
+
+.users .search input.active{
+    opacity: 1;
+    pointer-events: auto;
 }
 
 .users .search button{
@@ -210,12 +222,23 @@ form .name-details .field:last-child{/* For the editing added to the last name *
     height: 42px;
     border: none;
     outline: none;
-    color: #fff;
-    background: #333 ;
+    color: #333;
+    background: #fff ;
     cursor: pointer;
     font-size: 17px;
     border-radius: 0 5px 5px 0;
+    transition: all 0.2s ease;
 }
+
+.users .search button.active{
+    color: #fff;
+    background: #333 ;
+}
+
+.users .search button.active i::before{
+    content: "\f00d";
+}
+
 
 .users-list{
     max-height: 350px;

@@ -12,32 +12,17 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
         <!-- External CSS File -->
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="css/style.css">
 
     </head>
     <body background="img/background.jpg">
         
         <div class="wrapper">
-            <section class="form signup">
+            <section class="form login">
                 <header>Realtime Chat App</header>
                 <form action="#">
                     <div class="error-txt">This is an error Message!!</div>
                     
-                    <!-- Class only for Name -->
-                    <div class="name-details">
-                        <!-- Field for first name -->
-                        <div class="field input">
-                            <label>First Name</label>
-                            <input type="text" placeholder="First Name">
-                        </div>
-                    
-                        <!-- Field for last name -->
-                        <div class="field input">
-                            <label>Last Name</label>
-                            <input type="text" placeholder="Last Name">
-                        </div>
-                    
-                    </div>
 
                     <!-- Field for Email -->
                     <div class="field input">
@@ -49,15 +34,10 @@
                     <div class="field input">
                             <label>Password</label>
                             <input type="password" placeholder="Enter ur Password">
-                            <i class="fas fa-eye"></i>
+                            <!-- <i class="fas fa-eye"></i> -->
+                            <i class="fas fa-toggle-off"></i>
                     </div>
                     
-                    <!-- Field for Selecting Profile Photo -->
-                    <div class="field image">
-                            <label>Select Image</label>
-                            <input type="file">
-                    </div>
-
                     <!-- Field for Button -->
                     <div class="field button">
                         <input type="submit" value="Continue to Chat">
@@ -65,9 +45,9 @@
 
                 </form>
 
-                <div class="link">Already signed up? <a href="login.html">Login now</a> </div>
+                <div class="link">New User? <a href="index.php">Signup now</a> </div>
             </section>
         </div>
-        
+        <script src="javascript/pass-show-hide.js"></script>
     </body>
 </html>

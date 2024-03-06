@@ -12,7 +12,7 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
         <!-- External CSS File -->
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="css/style.css">
 
     </head>
     <body background="img/background.jpg">
@@ -27,7 +27,7 @@
                             <p>Active Now</p>
                         </div>
                     </div>
-                    <a href="login.html" class="logout">Logout</a>
+                    <a href="login.php" class="logout">Logout</a>
                 </header>
                 <div class="search">
                     <span class="text">Select an user to start chat</span>
@@ -117,6 +117,6 @@
                 </div>
             </section>
         </div>
-        
+        <script src="javascript/users.js"></script>
     </body>
 </html>
