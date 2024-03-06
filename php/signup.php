@@ -22,7 +22,7 @@
                     $img_type = $_FILES['image']['type'];
                     $tmp_name = $_FILES['image']['tmp_name'];
 
-                    // explode image and get the last extension like jpg png
+                    // explode image and get the last extension like jpeg png
 
                 }else{
                     echo "Please select an image file\n";
