@@ -1,12 +1,13 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
 *{ /* For the Complete Content of the Respective Page */
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
+    overflow-y: hidden;
 }
 body{ /* For the BackGround */
     display: flex;
@@ -18,10 +19,21 @@ body{ /* For the BackGround */
 }
 
 .wrapper{/* For the UI Box */
-    background: #fff; /* For changing the color of the box */
+    background: #46555E; /* For changing the color of the box */
     width: 450px;
+    height: 75vh;
     box-shadow: 0 0 128px   0 rgba(0, 0, 0, 0.5), 0 32px 64px -48px rgba(0, 0, 0, 2);/* For adding Shadow */
     border-radius: 16px;
+    color: white;
+}
+.wrapper-login{/* For the UI Box */
+    background: #46555E; /* For changing the color of the box */
+    width: 450px;
+    height: 75vh;
+    box-shadow: 0 0 128px   0 rgba(0, 0, 0, 0.5), 0 32px 64px -48px rgba(0, 0, 0, 2);/* For adding Shadow */
+    border-radius: 16px;
+    color: white;
+    padding-top: 135px;
 }
 
 /* Signup Form in CSS Code */
@@ -125,14 +137,17 @@ form .name-details .field:last-child{/* For the editing added to the last name *
     text-align: center;
     margin: 10px 0;
     font-size: 17px;
+    
 }
 
 .form.link a{/* For the adding color to the option of Signup Now or Login Now */
     color: #333;
+    
 }
 
 .form .link a:hover{ /* For the adding the option to underline to the option of Signup Now or Login Now, whenever the mouse is on it  */
     text-decoration: underline;
+    color: #f5c6cb;
 }
 
 
@@ -241,7 +256,7 @@ form .name-details .field:last-child{/* For the editing added to the last name *
 
 
 .users-list{
-    max-height: 350px;
+    max-height: 490px;
     overflow-y: auto; /* adds the scrolling effect in the no. of users list area */
 }
 
@@ -392,4 +407,137 @@ form .name-details .field:last-child{/* For the editing added to the last name *
     border-radius: 0 5px 5px 0;
     font-size: 19px;
     
+}
+
+
+.full-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid wheat;
+    background: #7D878E;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.7); /* Adjusted shadow */
+    border-radius: 20px;
+}
+
+
+.left-imagees{
+    width: 550px;
+    height: 550px;
+}
+
+.site-footer{
+    color: black;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.site-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background: #7D878E;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+}
+
+.site-branding{
+    margin-left: 20px;
+    
+}
+.brand{
+    font-family: 'Rajdhani';
+    color: black;
+}
+
+.right-side-items{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    list-style: none;
+    font-size: 14pt;
+    gap: 20px;
+    
+}
+
+.items{
+    text-decoration: none;
+    color: white;
+}
+
+.button-look{
+    
+    padding: 5px 15px;
+    border-radius: 5px;
+    background-color:#333;
+
+}
+
+.site-footer:hover{
+    background: #46555E;
+    color: white;
+}
+
+
+.search{
+    background-color: #7D878E;
+    padding-left: 8px;
+    border-radius: 5px;
+}
+
+.users-list{
+    background-color: white;
+    border-radius: 12px;
+    padding: 15px;
+    height: 1250px;
+    
+    margin-bottom: 300px;
+}
+
+.chat-box{
+    height: 520px;
+}
+
+.profile-image{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.profile-imagees{
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+}
+
+.user-name{
+    font-size: 20pt;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.user-name:hover {
+    border-bottom: 1px dashed white;
+    cursor: pointer;
+    font-weight: 700;
+    color: white;
+    
+}
+
+.users{
+    padding-top: 50px;
 }
